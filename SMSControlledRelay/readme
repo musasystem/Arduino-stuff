@@ -1,4 +1,2 @@
-Hello everyone
-this is a neoway m590 arduino based remote control system, I mananged to make a relay close by reading the content of a message sent to the sim card on the m590 module
-
-I will send you pictures soon as I can to see the full project
+﻿I bought this module at AliExpress, which was a little big but it did the job.
+I took some time trying to figure out what does each Pin represent after some tries I found it and I have drew all the connections in the picture attached. This module based on Neo M590 needs a 4.7v power source so you might consider using a voltage drop-down module or you can use directly 5v from arduino but you will have to change it later to save your chip from damage. I actually used a 1N4007 diode that drops 0.7v from the 5v source
